@@ -29,7 +29,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history:  createWebHashHistory(), // createWebHistory(),
+  history:  createWebHashHistory('/vue3-auth/'), // createWebHistory(),
   routes,
 });
 
