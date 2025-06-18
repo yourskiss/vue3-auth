@@ -1,5 +1,13 @@
 # Vue 3 + TypeScript + Vite
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+features of the projects
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+1. Login authentication with token (https://reqres.in/api/login)
+2. Token persistence with cookie
+3. Pinia for global state management
+4. Token restoration from cookie on page refresh
+5. Redirect to protected routes after login
+6. Navigation guards for route protection / guestOnly
+
+If a user is not logged in and tries to access /dashboard, they'll be redirected to /login.
+If a user is logged in and tries to access /login, they'll be redirected to /dashboard.
