@@ -1,6 +1,6 @@
 # Vue 3 + TypeScript + Vite
 
-features of the projects
+Features of the projects -
 
 1. Login authentication with token (https://reqres.in/api/login)
 2. Token persistence with cookie
